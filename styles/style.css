@@ -81,8 +81,8 @@ html {
 /* TODO: Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Eczar", serif;
+  --body-typeface: "Proza Libre", sans-serif;
+  --heading-typeface: "Proza Libre", sans-serif;
   --project-title-typeface: "Proza Libre", sans-serif;
   --background-color: #fdfdfd;
   --background-color-about: #f5f5f5;
