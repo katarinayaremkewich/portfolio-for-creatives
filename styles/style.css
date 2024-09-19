@@ -106,8 +106,8 @@ html {
   --hover-color: #111;
   --visited-color: #5200ff;
   --project-title-color: #2D453F;
-  --project-sidebar-background-color: orangered;
-  --project-sidebar-text-color: white;
+  --project-sidebar-background-color: transparent;
+  --project-sidebar-text-color: black;
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
   --text-selection-background-color: #5200ff;
@@ -557,6 +557,7 @@ a:active {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .large-emoji-placeholder {
@@ -579,13 +580,7 @@ a:active {
 .project-details {
   width: 100%;
   padding: 1rem;
-  /* TODO: Delete background-image and the three linear gradient colors to remove the gradient background on the project page. Be careful not to delete the closing } */
-  background-image: linear-gradient(
-    -225deg,
-    var(--linear-gradient-color-1) 0%,
-    var(--linear-gradient-color-2) 50%,
-    var(--linear-gradient-color-3) 100%
-  );
+
 }
 
 /* 
