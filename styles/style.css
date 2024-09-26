@@ -96,11 +96,11 @@ html {
   --h5-color: #5200ff;
   --h6-color: #5200ff;
   --primary-text-color: #222;
-  --holding-page-title-color: #ebedf0;
-  --accent-color: #5200ff;
+  --holding-page-title-color: #EAE4D7;
+  --accent-color: #2D453F;
   --overlay-color: #EAE4D7;
   --overlay-title-color: #2D453F;
-  --overlay-description-color: #ffffff;
+  --overlay-description-color: #AEB79C;
   --hyperlink-color: #5200ff;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
@@ -230,7 +230,7 @@ em {
 
 a:link {
   color: var(--hyperlink-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:visited {
@@ -251,7 +251,7 @@ a:active {
 }
 
 .navigation-arrow {
-  color: var(--alt-background-color);
+  color: var(--accent-color);
 }
 
 .navigation-arrow:link {
