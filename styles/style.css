@@ -56,8 +56,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
-  /* TODO: Change the url above to add a custom cursor. Delete the line above if you want to use the default browser cursor. */
+
 }
 
 *,
@@ -101,10 +100,10 @@ html {
   --overlay-color: #EAE4D7;
   --overlay-title-color: #2D453F;
   --overlay-description-color: #AEB79C;
-  --hyperlink-color: #5200ff;
+  --hyperlink-color: #2D453F;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --visited-color: #5200ff;
+  --visited-color: #2D453F;
   --project-title-color: #2D453F;
   --project-sidebar-background-color: transparent;
   --project-sidebar-text-color: black;
@@ -230,7 +229,6 @@ em {
 
 a:link {
   color: var(--hyperlink-color);
-  text-decoration: underline;
 }
 
 a:visited {
@@ -331,7 +329,7 @@ a:active {
 }
 
 .logo {
-  width: 3rem;
+  width: 2rem;
   /* TODO: Adjust the width of the logo on mobile devices here. */
 }
 
@@ -415,7 +413,7 @@ a:active {
   flex-direction: column;
   padding: 1em;
   background-color: var(--overlay-color);
-  transition: opacity 0.3s, visibility 0.3s;
+  transition: opacity 0.5s, visibility 0.5s;
 }
 
 .work-page-grid-item:hover .overlay {
