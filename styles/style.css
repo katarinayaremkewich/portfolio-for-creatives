@@ -703,7 +703,7 @@ a:active {
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 50vh;
   }
 
   .hero-headline-wrapper {
@@ -805,10 +805,6 @@ a:active {
     width: 65%;
   }
 
-  .project-image {
-    min-height: 70vh;
-    /* TODO: Delete min-height if you want to remove space between project images on project pages on large devices. It is used for the demo page only. */
-  }
 
   .project-image-container {
     flex-direction: row;
